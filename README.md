@@ -110,6 +110,7 @@ class GraphADT:
 
 ## 7. Project Structure
 
+```text
 ├── data/
 │   ├── ssynlinks.txt              # Primary dataset: chemical synapses (279 nodes, 1961 edges)
 │   ├── ssumlinks.txt              # Full network: synapses + gap junctions combined
@@ -123,3 +124,4 @@ class GraphADT:
 ├── tests/
 │   └── test_oracles.py            # Hand-verified small graph test suite
 └── README.md
+```
